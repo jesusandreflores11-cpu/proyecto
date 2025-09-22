@@ -3,6 +3,8 @@
 ![Status](https://img.shields.io/badge/Status-avanzado%20Proyecto-success) 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow)
 
+<img width="880" height="880" alt="image" src="https://github.com/user-attachments/assets/79d4d17d-dfe7-4926-b7b9-57d57ee4a819" />
+
 **Materia:** Estructura de Datos  
 **Maestra:** Blanca Aracely Aranda Machorro  
 **Fecha:** 3/10/25

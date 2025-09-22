@@ -1,6 +1,6 @@
 # 🍽️ Proyecto: Gestión de Tareas en Restaurante
 ![Java](https://img.shields.io/badge/Java-17-blue) 
-![Status](https://img.shields.io/badge/Status-Avance%20Proyecto-success) 
+![Status](https://img.shields.io/badge/Status-avanzado%20Proyecto-success) 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow)
 
 **Materia:** Estructura de Datos  

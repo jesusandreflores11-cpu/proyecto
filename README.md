@@ -5,7 +5,7 @@
 
 **Materia:** Estructura de Datos  
 **Maestra:** Blanca Aracely Aranda Machorro  
-**Fecha:** 31/08/2025  
+**Fecha:** 3/10/25
 
 ---
 

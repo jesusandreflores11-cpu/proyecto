@@ -12,21 +12,10 @@
 ## 📑 Índice
 1. [Alcance](#1-alcance)  
 2. [Análisis](#2-análisis)  
-   - [Situación problema](#situación-problema)  
-   - [Justificación](#justificación)  
-   - [Requerimientos funcionales](#requerimientos-funcionales)  
-   - [Requerimientos no funcionales](#requerimientos-no-funcionales)  
 3. [Diseño](#3-diseño)  
-   - [Clases principales](#clases-principales)  
-   - [Diagrama conceptual](#diagrama-conceptual)  
-   - [Interfaz de usuario](#interfaz-de-usuario)  
 4. [Desarrollo](#4-desarrollo)  
 5. [Implementación](#5-implementación)  
-   - [Entorno de ejecución](#entorno-de-ejecución)  
-   - [Pasos de compilación y ejecución](#pasos-de-compilación-y-ejecución)  
 6. [Pruebas](#6-pruebas)  
-   - [Casos de prueba](#casos-de-prueba)  
-   - [Resultados de las pruebas](#resultados-de-las-pruebas)  
 7. [Resultados de pruebas](#7-resultados-de-pruebas)  
 8. [Glosario de términos](#8-glosario-de-términos)  
 9. [Conclusión](#9-conclusión)  
@@ -89,36 +78,28 @@ La elección de **estructuras de datos (pila, cola, lista)** responde a la neces
 - `RestauranteApp`: inicia el sistema.  
 
 ### Diagrama conceptual
+```
 RestauranteApp → inicia ConsolaUI
 ConsolaUI → gestiona la interacción y distribuye las tareas
 PilaTareas / ColaTareas / ListaTareas → almacenan y gestionan
 Tarea → clase base
-
-shell
-Copiar código
+```
 
 ### Interfaz de usuario
 Ejemplo de menú:  
+
+```
 Restaurante La Buena Mesa
 
-Agregar tarea urgente (PILA)
-
-Agregar tarea programada (COLA)
-
-Agregar tarea por departamento (LISTA)
-
-Ver todas las tareas
-
-Atender tarea urgente
-
-Atender tarea programada
-
-Eliminar tarea de lista
-
-Salir
-
-yaml
-Copiar código
+1. Agregar tarea urgente (PILA)
+2. Agregar tarea programada (COLA)
+3. Agregar tarea por departamento (LISTA)
+4. Ver todas las tareas
+5. Atender tarea urgente
+6. Atender tarea programada
+7. Eliminar tarea de lista
+8. Salir
+```
 
 ---
 
@@ -137,71 +118,97 @@ Copiar código
 - JDK 17+  
 
 ### Pasos de compilación y ejecución
-
+```bash
 # Compilar
 javac main/RestauranteApp.java
 
 # Ejecutar
 java main.RestauranteApp
-6. Pruebas
-Casos de prueba
-Caso 1: Agregar tarea urgente → aparece en la pila.
+```
 
-Caso 2: Atender tarea urgente → extrae la última ingresada.
+---
 
-Caso 3: Agregar tarea programada → aparece en la cola.
+## 6. Pruebas
 
-Caso 4: Atender tarea programada → extrae la primera ingresada.
+### Casos de prueba
+1. Agregar tarea urgente → aparece en la pila.  
+2. Atender tarea urgente → extrae la última ingresada.  
+3. Agregar tarea programada → aparece en la cola.  
+4. Atender tarea programada → extrae la primera ingresada.  
+5. Agregar tarea por departamento → aparece en la lista.  
+6. Eliminar tarea de lista → desaparece correctamente.  
 
-Caso 5: Agregar tarea por departamento → aparece en la lista.
+### Resultados de las pruebas
+✔ La pila respeta LIFO  
+✔ La cola respeta FIFO  
+✔ La lista permite búsquedas y eliminaciones  
+✔ El menú interactivo facilita la gestión  
 
-Caso 6: Eliminar tarea de lista → desaparece correctamente.
+---
 
-7. Resultados de pruebas
-✔ La pila respeta LIFO
-✔ La cola respeta FIFO
-✔ La lista permite búsquedas y eliminaciones
-✔ El menú interactivo facilita la gestión
+## 7. Resultados de pruebas
+- Todas las estructuras se comportaron como se esperaba.  
+- La gestión de tareas se realizó de manera ordenada y eficiente.  
 
-8. Glosario de términos
-Pila (Stack): estructura LIFO.
+---
 
-Cola (Queue): estructura FIFO.
+## 8. Glosario de términos
+- **Pila (Stack):** estructura LIFO.  
+- **Cola (Queue):** estructura FIFO.  
+- **Lista (List):** colección dinámica.  
+- **POO:** Programación Orientada a Objetos.  
+- **JDK:** Kit de desarrollo de Java.  
+- **Consola:** interfaz de texto.  
 
-Lista (List): colección dinámica.
+---
 
-POO: Programación Orientada a Objetos.
+## 9. Conclusión
+- **André:** Aplicar pilas, colas y listas me ayudó a comprender mejor estructuras de datos y POO.  
+- **Jevick:** Aprendí cómo cada estructura organiza tareas en distintas situaciones del restaurante.  
+- **Jordán:** Comprendí la importancia del diseño modular en Java y la relación LIFO/FIFO.  
+- **Roberto:** Reforcé conceptos de estructuras de datos y validé que la planificación es clave.  
 
-JDK: Kit de desarrollo de Java.
+---
 
-Consola: interfaz de texto.
+## 10. Pasos del proyecto
+1. **Definir el alcance del proyecto**  
+   Se estableció que el objetivo es gestionar tareas de un restaurante mediante estructuras de datos.  
 
-9. Conclusión
-André: Aplicar pilas, colas y listas me ayudó a comprender mejor estructuras de datos y POO.
+2. **Analizar la situación problema del restaurante**  
+   Se identificaron tareas críticas, programadas y por departamento que requieren organización.  
 
-Jevick: Aprendí cómo cada estructura organiza tareas en distintas situaciones del restaurante.
+3. **Justificar el uso de estructuras de datos**  
+   Se seleccionaron pila (urgentes), cola (programadas) y lista (departamentales) para optimizar la gestión.  
 
-Jordán: Comprendí la importancia del diseño modular en Java y la relación LIFO/FIFO.
+4. **Identificar requerimientos funcionales y no funcionales**  
+   Se detallaron las operaciones, el lenguaje y la plataforma de ejecución.  
 
-Roberto: Reforcé conceptos de estructuras de datos y validé que la planificación es clave.
+5. **Diseñar clases principales y diagrama conceptual**  
+   Se definieron `Tarea`, `PilaTareas`, `ColaTareas`, `ListaTareas`, `ConsolaUI` y `RestauranteApp`.  
 
-10. Pasos del proyecto
-Definir el alcance del proyecto.
+6. **Desarrollar el código en Java usando POO**  
+   Se implementaron las clases y estructuras de datos, incluyendo métodos de agregar, eliminar y atender tareas.  
 
-Analizar la situación problema del restaurante.
+7. **Implementar en consola y preparar la ejecución**  
+   Se creó un menú interactivo para que el usuario pueda manipular las tareas fácilmente.  
 
-Justificar el uso de estructuras de datos (pila, cola, lista).
+8. **Realizar pruebas con casos reales**  
+   Se verificó el funcionamiento de pila (LIFO), cola (FIFO) y lista, así como el flujo del menú.  
 
-Identificar requerimientos funcionales y no funcionales.
+9. **Documentar resultados, glosario y conclusiones**  
+   Se recopilaron observaciones, terminología y aprendizajes obtenidos.  
 
-Diseñar clases principales y diagrama conceptual.
+10. **Entregar el proyecto con README, rúbrica y repositorio en GitHub**  
+   Se preparó este README completo, incluyendo pasos, resultados y evaluación.  
 
-Desarrollar el código en Java usando POO.
+---
 
-Implementar en consola y preparar la ejecución.
-
-Realizar pruebas con casos reales.
-
-Documentar resultados, glosario y conclusiones.
-
-Entregar el proyecto con README, rúbrica y repositorio en GitHub.
+## 11. Rúbrica de evaluación
+| Criterio | Puntos |
+|----------|--------|
+| Alcance y análisis | 15 |
+| Diseño y diagramas | 15 |
+| Implementación funcional | 25 |
+| Pruebas y resultados | 20 |
+| Documentación y README | 15 |
+| Presentación y claridad | 10 |

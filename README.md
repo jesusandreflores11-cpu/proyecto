@@ -14,19 +14,18 @@
 
 ##  Índice
 1. [Alcance](#1-alcance)
-1.5. [caso](#1.5-caso)
-3. [Análisis](#2-análisis)  
-4. [Diseño](#3-diseño)  
-5. [Desarrollo](#4-desarrollo)  
-6. [Implementación](#5-implementación)  
-7. [Pruebas](#6-pruebas)  
-8. [Resultados de pruebas](#7-resultados-de-pruebas)  
-9. [Glosario de términos](#8-glosario-de-términos)
-10. [Diagrama](#9-diagrama)
-11. [Conclusión](#10-conclusión)
-12. [Pasos del proyecto](#11-pasos-del-proyecto)  
-13. [Rúbrica de evaluación](#12-rúbrica-de-evaluación)  
-14. [autores](#13-autores)
+2. [Análisis](#2-análisis)  
+3. [Diseño](#3-diseño)  
+4. [Desarrollo](#4-desarrollo)  
+5. [Implementación](#5-implementación)  
+6. [Pruebas](#6-pruebas)  
+7. [Resultados de pruebas](#7-resultados-de-pruebas)  
+8. [Glosario de términos](#8-glosario-de-términos)
+9. [Diagrama](#9-diagrama)
+10. [Conclusión](#10-conclusión)
+11. [Pasos del proyecto](#11-pasos-del-proyecto)  
+12. [Rúbrica de evaluación](#12-rúbrica-de-evaluación)  
+13. [autores](#13-autores)
 
 ---
 

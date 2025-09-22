@@ -32,6 +32,8 @@
 ## 1. Alcance
 El proyecto busca proporcionar una solución sencilla y funcional para la **gestión de tareas en un restaurante**.  
 
+caso
+
 La gestión de tareas en un restaurante puede ser un desafío constante: coordinar al personal, organizar pedidos, supervisar inventarios y asegurar un servicio eficiente requiere de un sistema claro y funcional. Este proyecto surge con el propósito de ofrecer una solución sencilla pero efectiva que facilite la organización diaria de las actividades dentro del restaurante.
 
 Con esta herramienta buscamos optimizar el flujo de trabajo, mejorar la comunicación entre el equipo y garantizar una mejor experiencia tanto para los empleados como para los clientes.

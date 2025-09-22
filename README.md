@@ -212,3 +212,7 @@ java main.RestauranteApp
 | Pruebas y resultados | 20 |
 | Documentación y README | 15 |
 | Presentación y claridad | 10 |
+
+
+<img width="478" height="612" alt="image" src="https://github.com/user-attachments/assets/22edbdd6-2f3e-4124-b40f-642ffae592ec" />
+

@@ -45,7 +45,6 @@ El alcance está delimitado a una interfaz por consola, con menús de texto
 interactivos, sin incluir gráficos ni conexión a base de datos.
 
  **Nota:** Se limita a una **interfaz por consola** con menús de texto interactivos.  
- ---
  
 ## 1.5. CASO
 

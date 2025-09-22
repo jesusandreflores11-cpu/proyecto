@@ -20,11 +20,12 @@
 5. [Implementación](#5-implementación)  
 6. [Pruebas](#6-pruebas)  
 7. [Resultados de pruebas](#7-resultados-de-pruebas)  
-8. [Glosario de términos](#8-glosario-de-términos)  
-9. [Conclusión](#9-conclusión)  
-10. [Pasos del proyecto](#10-pasos-del-proyecto)  
-11. [Rúbrica de evaluación](#11-rúbrica-de-evaluación)  
-12. [autores](#12-autores)
+8. [Glosario de términos](#8-glosario-de-términos)
+9. [Diagrama](#9-diagrama)
+10. [Conclusión](#10-conclusión)
+11. [Pasos del proyecto](#11-pasos-del-proyecto)  
+12. [Rúbrica de evaluación](#12-rúbrica-de-evaluación)  
+13. [autores](#13-autores)
 
 ---
 
@@ -169,8 +170,10 @@ java main.RestauranteApp
 - **Consola:** interfaz de texto.  
 
 ---
-
-## 9. Conclusión
+## 9. Diagrama
+<img width="921" height="380" alt="image" src="https://github.com/user-attachments/assets/9f3970ca-e101-4303-9460-9ea437cfeedc" />
+---
+## 10. Conclusión
 - **André:** Aplicar pilas, colas y listas me ayudó a comprender mejor estructuras de datos y POO.  
 - **Jevick:** Aprendí cómo cada estructura organiza tareas en distintas situaciones del restaurante.  
 - **Jordán:** Comprendí la importancia del diseño modular en Java y la relación LIFO/FIFO.  
@@ -178,7 +181,7 @@ java main.RestauranteApp
 
 ---
 
-## 10. Pasos del proyecto
+## 11. Pasos del proyecto
 1. **Definir el alcance del proyecto**  
    Se estableció que el objetivo es gestionar tareas de un restaurante mediante estructuras de datos.  
 
@@ -211,7 +214,7 @@ java main.RestauranteApp
 
 ---
 
-## 11. Rúbrica de evaluación
+## 12. Rúbrica de evaluación
 | Criterio | Puntos |
 |----------|--------|
 | Alcance y análisis | 15 |
@@ -221,6 +224,6 @@ java main.RestauranteApp
 | Documentación y README | 15 |
 | Presentación y claridad | 10 |
 ---
-## 12. Autores
+## 13. Autores
 <img width="478" height="612" alt="image" src="https://github.com/user-attachments/assets/22edbdd6-2f3e-4124-b40f-642ffae592ec" />
 

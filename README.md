@@ -173,6 +173,7 @@ java main.RestauranteApp
 ## 9. Diagrama
 <img width="921" height="380" alt="image" src="https://github.com/user-attachments/assets/9f3970ca-e101-4303-9460-9ea437cfeedc" />
 ---
+
 ## 10. Conclusión
 - **André:** Aplicar pilas, colas y listas me ayudó a comprender mejor estructuras de datos y POO.  
 - **Jevick:** Aprendí cómo cada estructura organiza tareas en distintas situaciones del restaurante.  

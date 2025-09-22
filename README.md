@@ -21,6 +21,7 @@
 9. [Conclusión](#9-conclusión)  
 10. [Pasos del proyecto](#10-pasos-del-proyecto)  
 11. [Rúbrica de evaluación](#11-rúbrica-de-evaluación)  
+12. [autores](#12-autores)
 
 ---
 
@@ -213,6 +214,6 @@ java main.RestauranteApp
 | Documentación y README | 15 |
 | Presentación y claridad | 10 |
 
-
+## 12. Autores
 <img width="478" height="612" alt="image" src="https://github.com/user-attachments/assets/22edbdd6-2f3e-4124-b40f-642ffae592ec" />
 

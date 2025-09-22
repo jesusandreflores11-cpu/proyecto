@@ -1,4 +1,4 @@
-# 🍽️ Proyecto: Gestión de Tareas en Restaurante
+#  Proyecto: Gestión de Tareas en Restaurante
 ![Java](https://img.shields.io/badge/Java-17-blue) 
 ![Status](https://img.shields.io/badge/Status-avanzado%20Proyecto-success) 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow)
@@ -9,7 +9,7 @@
 
 ---
 
-## 📑 Índice
+##  Índice
 1. [Alcance](#1-alcance)  
 2. [Análisis](#2-análisis)  
 3. [Diseño](#3-diseño)  
@@ -36,7 +36,7 @@ Funciones principales:
   - **Programadas:** mediante una cola (FIFO).  
   - **Departamentales:** mediante una lista.  
 
-📌 **Nota:** Se limita a una **interfaz por consola** con menús de texto interactivos.  
+ **Nota:** Se limita a una **interfaz por consola** con menús de texto interactivos.  
 
 ---
 

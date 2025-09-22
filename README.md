@@ -27,7 +27,9 @@
 
 ## 1. Alcance
 El proyecto busca proporcionar una solución sencilla y funcional para la **gestión de tareas en un restaurante**.  
+La gestión de tareas en un restaurante puede ser un desafío constante: coordinar al personal, organizar pedidos, supervisar inventarios y asegurar un servicio eficiente requiere de un sistema claro y funcional. Este proyecto surge con el propósito de ofrecer una solución sencilla pero efectiva que facilite la organización diaria de las actividades dentro del restaurante.
 
+Con esta herramienta buscamos optimizar el flujo de trabajo, mejorar la comunicación entre el equipo y garantizar una mejor experiencia tanto para los empleados como para los clientes.
 Funciones principales:
 - Registrar tareas según el nivel de urgencia.  
 - Asignar tareas a diferentes departamentos (cocina, meseros, caja, etc.).  
@@ -213,7 +215,7 @@ java main.RestauranteApp
 | Pruebas y resultados | 20 |
 | Documentación y README | 15 |
 | Presentación y claridad | 10 |
-
+---
 ## 12. Autores
 <img width="478" height="612" alt="image" src="https://github.com/user-attachments/assets/22edbdd6-2f3e-4124-b40f-642ffae592ec" />
 

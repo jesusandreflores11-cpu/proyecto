@@ -48,7 +48,7 @@ interactivos, sin incluir gráficos ni conexión a base de datos.
  
 ## 1.5. CASO
 
-En un raturante de hamgurguesa necesita un programa para gestionar su negocio.
+En un restaurante de hamgurguesas necesita un programa para gestionar su negocio.
 
 La gestión de tareas en un restaurante puede ser un desafío constante: coordinar al personal, organizar pedidos, supervisar inventarios y asegurar un servicio eficiente requiere de un sistema claro y funcional. Este proyecto surge con el propósito de ofrecer una solución sencilla pero efectiva que facilite la organización diaria de las actividades dentro del restaurante.
 

@@ -137,7 +137,7 @@ Copiar código
 - JDK 17+  
 
 ### Pasos de compilación y ejecución
-```bash
+
 # Compilar
 javac main/RestauranteApp.java
 

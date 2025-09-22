@@ -32,7 +32,6 @@
 ## 1. Alcance
 El proyecto busca proporcionar una solución sencilla y funcional para la **gestión de tareas en un restaurante**.  
 
-
 Funciones principales:
 - Registrar tareas según el nivel de urgencia.  
 - Asignar tareas a diferentes departamentos (cocina, meseros, caja, etc.).  
